@@ -18,7 +18,7 @@
 
 let heading = document.querySelector(".heading");
 
-heading.addEventListener("click", () => {
+heading.addEventListener("toggle", () => {
   heading.style.backgroundColor = "red";
 });
 
